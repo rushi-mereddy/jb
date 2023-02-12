@@ -19,6 +19,11 @@ body{
     font-weight: 500;
     color: #f7920dc2;
 }
+
+ul > li{
+    list-style-type: '👉  ';
+    margin-top: 5px;
+}
 /* Commons end */
 
 
@@ -77,4 +82,22 @@ body{
         padding-left: 10px;
         font-size: 0.7em;
     } 
+
+    .banner-heads{
+        padding-left: unset;
+        padding-right: unset;
+        max-width: 100vw;
+        margin-left: -10px;
+        border-top-right-radius: unset;
+        border-bottom-right-radius: unset;
+    }
+
+    .head{
+        text-align: center !important;
+    }
+
+    .sub-head{
+        text-align: center !important;
+        margin: auto;
+    }
 }
