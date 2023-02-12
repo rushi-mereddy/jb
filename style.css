@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.auto-padding{
+    padding: 40px 0px 40px 0px;
+}
+
+
+/* Banner start */
+.banner{
+    height: 100vh !important;
+}
+
+.overlay { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+    width: max-content;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f68121e1;
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+  
+  .logo{
+    position: absolute;
+    z-index: 12;
+  }
+
+  .carousel-item > img{
+    max-height: 1000px;
+    filter: grayscale(40%);
+
+  }
+/* Banner end */
