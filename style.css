@@ -20,8 +20,8 @@ body{
     color: #f7920dc2;
 }
 
-ul > li{
-    list-style-type: '👉  ';
+.body-ul > li{
+    list-style-type: '🟠  ';
     margin-top: 5px;
 }
 /* Commons end */
@@ -76,7 +76,223 @@ ul > li{
 /* Section 3 end */
 
 
-@media only screen and (max-width: 500px)
+/* Footer */
+.footer {
+    padding: 0px 0px 20px 0px;
+    background-color: #db6300;
+  }
+  
+  
+  /* .footer{
+    background-color: #EFEFEF;
+  } */
+  
+  .footer-header{
+    /* font-family: 'Open Sans'; */
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .footer-text{
+    /* font-family: 'Open Sans'; */
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 8px;
+    text-decoration: none;
+  
+  }
+  
+  .footer-text ul{
+    list-style-type: none;
+  }
+  
+  .footer-text a{
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+  
+  .footer-text li::before {
+    content: '';
+    margin-left: -30px;
+  }
+  
+  .footer-text a:hover{
+    text-decoration: none;
+    color: #6986b1;
+  }
+  
+  .social-media-icons{
+    margin-left: -30px;
+    width: 20vw;
+  }
+  
+  
+  .social-media-icons i{
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  
+  .social-media-icons i:hover{
+    color: #ffffffe0;
+  }
+  
+  .footer-logo{
+    /* font-family: 'Open Sans'; */
+    font-weight: 400;
+    font-size: 9px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: -5px;
+  }
+  
+  /* .sub-footer-mid{
+   justify-content: center;
+   align-items: center;
+   margin-top: -5px;
+  } */
+  
+  .sub-footer-text{
+    /* font-family: 'Open Sans'; */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 170%;
+    text-transform: capitalize;
+    color: #ffffff !important;
+    text-align: center;
+    /* margin-top: -5px; */
+    /* padding-bottom: 10px; */
+    text-decoration: none;
+  
+  }
+  
+  .sub-footer-text a{
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+  
+  .sub-footer-text a:hover{
+    text-decoration: none;
+    color: #e2efff;
+  }
+  
+  .footer-mobile{
+    display: none;
+  }
+  
+  .only-for-mobile{
+    display: none;
+  }
+  
+  
+  .proj-header{
+    background-color: #000000;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  
+  
+  
+    
+  
+  @media screen and (max-width: 770px){
+  
+    .footer-pc{
+        display: none !important;
+    }
+  
+    .footer-mobile{
+        display: block;
+    }
+  
+    .only-for-mobile{
+      display: block;
+    }
+  
+    .only-for-pc{
+      display: none !important;
+    }
+  
+    .sub-footer-text{
+      margin-top: 10px;
+    }
+  
+    
+  .faqs {
+    text-align: center;
+    background-color: #30444309;
+  
+    /* padding: 50px 0px */
+      /* background: #F7F7F7; */
+      /* margin-top: -100px; */
+  }
+  
+  
+  .accordion {
+    background: #ffffff00;
+    color: #35475C;
+    /* font-family: 'Open Sans'; */
+    cursor: pointer;
+    padding-left: 18px;
+    padding-top: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-top: 1px solid #A1A9B2;
+  }
+  
+  .for-plus:after {
+    content: '\002B';
+    /* Unicode character for "plus" sign (+) */
+    color: #90a1b4c4;
+    float: right;
+    margin-top: -5px;
+    font-size: 25px;
+  }
+  
+  .accordion:hover::after {
+    color: #b7d5df;
+  }
+  
+  .faq-active:after {
+    content: "\2212";
+    /* Unicode character for "minus" sign (-) */
+    font-size: 25px;
+    color: #35475C;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    text-align: left;
+    background: #ffffffed;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* font-family: 'Open Sans'; */
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #35475C;
+    opacity: 0.7;
+  }
+  
+  
+  }
+  
+  
+
+@media only screen and (max-width: 600px)
 {
     .overlay{
         padding-left: 10px;
@@ -90,6 +306,7 @@ ul > li{
         margin-left: -10px;
         border-top-right-radius: unset;
         border-bottom-right-radius: unset;
+        border-radius: 10px;
     }
 
     .head{
