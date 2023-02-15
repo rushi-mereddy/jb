@@ -300,7 +300,7 @@ body{
     } 
 
     .banner{
-        height: 60vh;
+        height: 70vh !important;
     }
 
     .banner-heads{
