@@ -325,4 +325,8 @@ body{
     .footer-logo{
       display: none;
     }
+
+    .cor-images > img{
+      height: 250px !important;
+    }
 }
