@@ -321,4 +321,8 @@ body{
         text-align: center !important;
         margin: auto;
     }
+
+    .footer-logo{
+      display: none;
+    }
 }
